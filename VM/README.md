@@ -8,6 +8,7 @@ brew install qemu
 #user-data
 cat <<EOF > user-data
 #cloud-config
+user: ubuntu
 password: mypassword123
 chpasswd: { expire: False }
 ssh_pwauth: True
