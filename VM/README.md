@@ -19,6 +19,7 @@ EOF
 touch meta-data
 
 hdiutil makehybrid -o seed.iso -hfs -joliet -iso -default-volume-name cidata .
+# copy it seed.iso to the folder with script create-vm.sh
 cp seed.iso ../
 ```
 
