@@ -23,6 +23,12 @@ hdiutil makehybrid -o seed.iso -hfs -joliet -iso -default-volume-name cidata .
 cp seed.iso ../
 ```
 
+### working directory should look like this
+```
+% ls
+create-vm.sh			noble-server-cloudimg-amd64.img	seed.iso
+```
+
 ```
 ./create-vm.sh one
 ```
