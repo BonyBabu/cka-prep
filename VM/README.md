@@ -24,7 +24,7 @@ cp seed.iso ../
 ```
 
 ```
-./create-vm.sh 
+./create-vm.sh one
 ```
 
 
