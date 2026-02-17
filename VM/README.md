@@ -1,4 +1,6 @@
 Download Ubuntu live server from iso from [ubuntu](https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img)
+
+Install qemu
 ```code
 brew install qemu
 ```
