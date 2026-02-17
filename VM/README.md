@@ -1,4 +1,4 @@
-# How to configure VMs for kubernetes cluster
+# How to configure VMs for practise cluster on macbook
 
 Download Ubuntu cloud image iso from [noble-server-cloudimg-amd64.img](https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img)
 
