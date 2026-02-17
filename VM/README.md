@@ -5,6 +5,7 @@ brew install qemu
 
 ## Create seed.iso
 ```code
+mkdir cloud-config
 #user-data
 cat <<EOF > user-data
 #cloud-config
@@ -16,8 +17,9 @@ EOF
 touch meta-data
 
 hdiutil makehybrid -o seed.iso -hfs -joliet -iso -default-volume-name cidata .
+cp seed.iso ../
 ```
 
-./create-vm.sh noble-server-cloudimg-amd64.img
-./create-vm.sh noble-server-cloudimg-amd64.img
+./create-vm.sh 
+./create-vm.sh
 
