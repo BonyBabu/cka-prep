@@ -1,11 +1,11 @@
 # Multipass
 
-##Install multipass
+## Install multipass
 ```bash
 brew install --cask multipass
 ```
 
-###Launch k8s
+### Launch k8s
 ```bash
 curl https://raw.githubusercontent.com/tigera/ccol1/main/control-init.yaml | multipass launch -n control -m 2048M 20.04 --cloud-init -
 curl https://raw.githubusercontent.com/tigera/ccol1/main/node1-init.yaml | multipass launch -n node1 20.04 --cloud-init -
