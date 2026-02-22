@@ -40,6 +40,9 @@ EOF
 
 kubectl get tigerastatus/calico
 
+NAME     AVAILABLE   PROGRESSING   DEGRADED   SINCE
+calico   True        False         False      10m
+
 kubectl get pods -A
 
 NAMESPACE         NAME                                      READY   STATUS      RESTARTS   AGE
